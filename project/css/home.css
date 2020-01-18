@@ -1,0 +1,62 @@
+img{
+   width: 100%;
+   height: 800px;
+}
+nav{
+	background-color:blue;
+	height:40px;
+	width:100%; 
+	opacity: 0.8;
+}
+nav a{
+	text-decoration: none;
+	height: 40px;
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 5px;
+	opacity: 1;
+}
+nav ul li{
+         list-style-type: none;
+         float: left;
+         padding-top: 10px;
+         padding-left: 30px;
+}
+ul li a{
+	   color: white;
+}
+
+.naani{
+	float: right;
+}
+.dropdownlist{
+	display: none;
+}
+.dropdownlist a{
+	background-color: green;
+	display: block;
+	
+}
+.dropdown:hover .dropdownlist{
+	display: block;
+	position:absolute;
+}
+  
+        .image{
+            border: 2px solid seagreen;
+            width: 300px;
+            float: left;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .image img{
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .desc{
+            text-align: center;
+            color: green;
+            padding: 10px;
+        }
